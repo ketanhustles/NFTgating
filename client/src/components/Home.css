@@ -1,0 +1,19 @@
+.beautiful-sentence {
+    font-family: "Arial", sans-serif;
+    font-size: 18px;
+    color: #ff4081;
+    text-align: center;
+    animation: rainbow 5s infinite;
+}
+@keyframes rainbow {
+    0% { color: #ff4081; }
+    14% { color: #ff7f00; }
+    28% { color: #ffff00; }
+    42% { color: #00ff00; }
+    57% { color: #0000ff; }
+    71% { color: #4b0082; }
+    85% { color: #9400d3; }
+    100% { color: #ff4081; }
+}
+
+
